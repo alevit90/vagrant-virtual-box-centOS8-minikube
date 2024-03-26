@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
     /usr/local/bin/minikube addons enable metrics-server
     /usr/local/bin/minikube addons enable dashboard
     
-    sleep 60
+    sleep 100
 
     # Inoltro della porta per accedere al dashboard di Kubernetes
     /usr/local/bin/kubectl --namespace=kubernetes-dashboard port-forward --address 0.0.0.0 svc/kubernetes-dashboard 8080:80
