@@ -32,7 +32,7 @@ Replace the vagrant file that was created with the vagrant init command with the
 After that, run the following command to create a new Vagrant environment:
 
 ```shell
-vagrant init
+vagrant up
 ```
 
 The following command via Vagrant creates a centOS8 virtual machine on virtual box. It also automatically installs minikube and its dashboard where it is possible to manage, create and modify resources on Kubernetes.
